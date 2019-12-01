@@ -15,10 +15,11 @@ class Muspread {
   }
 
   function setSpreadsheetId($spreadsheetId) {
-    $this->_spreadsheetId = $spreadsheetId;
+    $this->_spreadsheetId = $this->_sanitize($spreadsheetId);
   }
 
   function read($range) {
+    $range = $this->_sanitize($range);
     $result = array('success' => false);
 
     if ($this->_spreadsheetId != '' and $range != '') {
