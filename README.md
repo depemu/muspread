@@ -1,2 +1,2 @@
 # Muspread
-Read data from GoogleSpreadsheet.
+Data Reader for GoogleSpreadsheet.
