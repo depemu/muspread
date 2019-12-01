@@ -1,5 +1,7 @@
 vendor/
 .DS_Store
+.ftpconfig
+build/
 
 credentials.json
 token.json
