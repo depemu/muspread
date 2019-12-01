@@ -1,5 +1,7 @@
 <?php
 
+require __DIR__ . '/GoogleClient.php';
+
 class Muspread {
   private $_service;
   private $_spreadsheetId;
